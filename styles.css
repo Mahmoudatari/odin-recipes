@@ -1,0 +1,103 @@
+/* General styles for body and text */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header styles */
+h1 {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 20px 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ff6347;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+ul li a:hover {
+    color: #333;
+}
+
+/* Content area styles */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Subheaders and sections */
+h2 {
+    color: #ff6347;
+    border-bottom: 2px solid #ff6347;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    margin: 20px 0;
+}
+
+ul.ingredients, ol.instructions {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.ingredients li, ol.instructions li {
+    margin-bottom: 10px;
+}
+
+/* Specific styles for recipe links */
+.recipe-link {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.recipe-link a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff6347;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.recipe-link a:hover {
+    background-color: #333;
+}
